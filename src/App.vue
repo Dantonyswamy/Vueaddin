@@ -12,7 +12,7 @@
           </p>
 
           <h3>Try it out</h3>
-          <button @click="onSetColor">Set color</button>
+          <v-btn @click="onSetColor">Set color</v-btn>
           <h3>Copy existing sheet to a new sheet</h3>
           <button @click="copytoNewsheet">Copy</button> {{ summary }}
           <h3>Copy existing sheet to a new sheet</h3>
